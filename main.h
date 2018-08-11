@@ -6,6 +6,7 @@
 
 #include"reg52.h"
 #include"interrupt.h"
+#include"display.h"
 
 
 
