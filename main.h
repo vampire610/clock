@@ -8,7 +8,7 @@
 #include"interrupt.h"
 #include"display.h"
 #include"keypad.h"
-
+#include"calculate.h"
 
 
 
