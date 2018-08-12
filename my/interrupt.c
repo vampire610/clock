@@ -26,3 +26,4 @@ void dingshiqi1() interrupt 1     //中断函数
     	s=0;
     }
 }
+

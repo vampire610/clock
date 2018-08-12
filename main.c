@@ -1,7 +1,6 @@
 #include"main.h"
 
-sbit dx=P2^0;
-sbit wx=P2^1;
+
 sbit naoling=P2^7;
 
 

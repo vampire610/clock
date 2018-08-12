@@ -75,3 +75,4 @@ void zhuancun(Time * pTIME,uchar *pDUAN)
 	if(naozhongflag==0)
 		*(pDUAN + 7) = 0;
 }
+

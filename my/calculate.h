@@ -29,11 +29,15 @@ extern uchar *pset;
 
 extern uint s;			/*时间计数*/
 
-extern uchar  naozhongflag=1;  //闹钟开启标志位
-extern uchar  setnaozhong=0;   //设置闹钟标志位
-extern uchar  setshijian=0;    //设置时间标志位
+extern uchar  naozhongflag;  //闹钟开启标志位
+extern uchar  setnaozhong;   //设置闹钟标志位
+extern uchar  setshijian;    //设置时间标志位
 
 extern void nicunshuzu(uchar * pZC,uchar * pSET);
 extern void nicun(Time * pTI, uchar *pDU);
 extern void jinwei();
 extern void zhuancun(Time * pTIME,uchar *pDUAN);
+
+
+#endif
+

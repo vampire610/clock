@@ -1,5 +1,7 @@
 #include"display.h"
 
+sbit dx=P2^0;
+sbit wx=P2^1;
 
 uchar code shu[]={               //数码管显示数组
 	0x3f,0x06,0x5b,0x4f,
@@ -60,3 +62,4 @@ void display_flash(uchar *pss)
 	}
 	else flashtime=0;
 }
+
