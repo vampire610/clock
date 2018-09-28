@@ -9,6 +9,7 @@ typedef struct
 	uchar shi;
 	uchar fen;
 	uchar miao;
+
 }Time;
 
 extern Time time;                //时间

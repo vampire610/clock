@@ -1,7 +1,7 @@
 #include"display.h"
 
-sbit dx=P2^0;
-sbit wx=P2^1;
+sbit dx=P2^6;
+sbit wx=P2^7;
 
 uchar code shu[]={               //数码管显示数组
 	0x3f,0x06,0x5b,0x4f,
@@ -21,7 +21,7 @@ char flashwei=5;	/*闪烁位*/
 void display(uchar *psss)
 {
 
-		if(t==5)
+		if(t==1)
 		{
 			seg=xx;
 			wx=1;

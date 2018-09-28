@@ -1,7 +1,7 @@
 #ifndef __DISPLAY_H_
 #define __DISPLAY_H_
 
-#define xx 0xff
+#define xx 0x00
 #define seg P0 
 
 #include"main.h"
