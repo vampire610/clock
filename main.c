@@ -1,7 +1,7 @@
 #include"main.h"
 
 
-sbit naoling=P2^7;
+sbit naoling=P1^0;
 
 
 void main()

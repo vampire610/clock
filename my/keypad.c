@@ -70,14 +70,14 @@ void Int_Key_Scan(void)
     unsigned short KeyRow,KeyColumn;
 
     //读取按键的行数
-    P1 = 0xf0;
-    KeyRow = P1;
+    P3 = 0xf0;
+    KeyRow = P3;
 
     //读取按键的列数
-    P1 = 0x0f;
-    KeyColumn = P1;
+    P3 = 0x0f;
+    KeyColumn = P3;
 
-    P1=0xff;
+    P3=0xff;
     //读取行列数，就是当前键值了
     CurrReadKey = KeyRow|KeyColumn;         //获取当前的键值      
     //P3=CurrReadKey;
